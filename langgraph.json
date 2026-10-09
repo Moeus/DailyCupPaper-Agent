@@ -1,0 +1,14 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "python_version": "3.13",
+  "dependencies": ["."],
+  "graphs": {
+    "academic_research": "academic_research_agent.graph:graph",
+    "translation": "translation_agent.graph:graph"
+  },
+  "env": ".env",
+  "auth": {
+    "path": "./src/agent_runtime/auth.py:auth"
+  },
+  "image_distro": "wolfi"
+}
